@@ -8,14 +8,14 @@
 /************************* WiFi Access Point *********************************/
 
 #define WLAN_SSID       "maco.net"
-#define WLAN_PASS       "JeBn*20471052-K#"
+#define WLAN_PASS       ""
 
 /************************* Adafruit.io Setup *********************************/
 
 #define MQTT_SERVER      "m13.cloudmqtt.com"
 #define MQTT_PORT  16342                   // use 8883 for SSL
-#define MQTT_USER    "jdlolrja"
-#define MQTT_PASS         "AG5uhSft5ylk"
+#define MQTT_USER    ""
+#define MQTT_PASS         ""
  
 WiFiClient espClient;
 PubSubClient client(espClient);
